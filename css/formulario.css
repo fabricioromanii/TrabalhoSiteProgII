@@ -23,7 +23,6 @@ input {
 input:hover{
     border: 2px solid #FF551C;
     color: #ffffff;
-
 }
 
 .field-nome {
@@ -51,9 +50,11 @@ input:hover{
     font-family: 'Montserrat';
     resize: none;
 }
+
 .field-mensagem:hover{
     border: 2px solid #FF551C;
 }
+
 .field-enviar {
     width: 20vw;
     height:38px;
@@ -74,4 +75,3 @@ input:hover{
     float: right;
     background-color: #e87840;
 }
-
