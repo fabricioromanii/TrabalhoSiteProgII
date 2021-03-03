@@ -41,11 +41,9 @@
 }
 
 .imagemBebida{
-    width:60px;
-    height:60px;
     float:right;
-    margin-right:50px;
-    margin-top: -80px;
+    margin-right:60px;
+    margin-top: -70px;
 }
 
 .imagemPizza{
@@ -67,7 +65,7 @@
 }
 
 .itemCardapioBebida{
-    width:40%;
+    width:50%;
     background-color:#f2f2f2;
     border: 2px solid #fc6d00;
     padding-top:10px;
