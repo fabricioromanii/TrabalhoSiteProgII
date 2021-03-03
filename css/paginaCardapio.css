@@ -1,0 +1,28 @@
+.tituloCardapio{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.tituloItemCardapio{
+    background-color: rgb(111, 54, 54);
+    height: 30px;
+    width: 30%;
+    margin-left: -60px;
+    padding-left: 90px;
+    color:white;
+    font-size:20px;
+    border-radius:20px;
+}
+
+.listaSabores{
+    width: 80vw;
+}
+
+.listaSabores li{
+    background-color: #da8a8a;
+    display: inline-block;
+    width:30vh;
+    margin: 15px 5px 3px 5px;
+    border-radius: 7px;
+    cursor: pointer;
+}

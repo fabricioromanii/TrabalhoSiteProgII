@@ -62,6 +62,11 @@
     border-radius: 20px;
 }
 
+.itemCardapioPizza a{
+    text-decoration: none;
+    color:black;
+}
+
 .itemCardapioBebida{
     background-color:#f2f2f2;
     border: 2px solid #fc6d00;
@@ -70,6 +75,10 @@
     margin-top:10px;
     margin-bottom:10px;
     border-radius:20px;
+}
+.itemCardapioBebida a{
+    text-decoration: none;
+    color:black;
 }
 
 .itemCardapioPizza:hover{
