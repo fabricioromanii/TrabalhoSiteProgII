@@ -10,9 +10,13 @@
     <meta name="author" content="Fabrício Romani">
     <meta name="description" content="Exemplos de Site de Pizzaria">
     <meta name="keywords" content="pizza, entrega, pizzaria">
+    
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="shortcut icon" href="img/IconeParaONavegador.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/imagemInicial.css" />
+    <link rel="stylesheet" href="css/formulario.css" />
+
+    <link rel="shortcut icon" href="img/IconeParaONavegador.png" type="image/x-icon" />
 
     <title>Pizzaria Teste</title>
 
@@ -20,21 +24,54 @@
 
 <body>
 
-    <section class="banner">
+    <div class="banner">
 
         <img class="imagemBanner" src="img/Logo3.jpg"/>
         <h1 class="textoBanner">Pizzaria Teste</h1>
 
-    </section>
+    </div>
 
-    <header>
+    <div class="header">
 
-        <div class="barraMenu">
-            <img class="logo" src="img/Logo2.jpg"/>
-        </div>
+        <ul>
+            <li><a class="altura_js">Home</a></li>
+            <li><a class="altura_js">Sobre</a></li>
+            <li><a class="altura_js">Soluções</a></li>
+        </ul>
 
-    </header>
-    
+        <a class="logo"><img  src="img/Logo2.jpg"/> </a>
+
+    </div>
+
+    <div class="textoPizzaria">
+
+        <h1>PRIMEIRA PIZZARIA DE CHAPECÓ</h1>
+
+        <p>Gostaria de enfatizar que o desafiador cenário globalizado
+        representa uma abertura para a melhoria das condições
+        inegavelmente apropriadas. Gostaria de enfatizar que
+        o desafiador cenário globalizado representa uma abertura 
+        para a melhoria das condições inegavelmente apropriadas.
+        Gostaria de enfatizar que o desafiador cenário globalizado
+        representa uma abertura para a melhoria das condições
+        inegavelmente apropriadas. Gostaria de enfatizar que
+        o desafiador cenário globalizado representa uma abertura 
+        para a melhoria das condições inegavelmente apropriadas.</p>
+
+    </div>
+
+    <div class="contato">
+
+        <form class="form">
+            <input class="field-nome" placeholder="Nome" type="text" required>
+            <input class="field-telefone" placeholder="Telefone" type="number">
+            <input class="field-email" placeholder="E-mail" type="email" required>
+            <textarea class="field-mensagem" placeholder="Digite sua mensagem aqui" maxlength="600" required></textarea>
+            <input class="field-enviar" type="submit" value="Enviar">
+        </form>
+
+    </div>
+
     <script src="js/textoImagemInicial.js"></script>
 
 </body>

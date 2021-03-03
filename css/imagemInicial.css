@@ -1,6 +1,5 @@
 .banner {
     width: 100%;
-    position: relative;
 }
 
 .banner .imagemBanner {
@@ -33,6 +32,7 @@
 .textoBanner::after {
     content: "|";
     margin-left: 5px;
+    color:#ffae00;
     opacity: 1;
     animation: pisca .9s infinite;
 }
