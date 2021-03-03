@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
 
 <head>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Fabrício Romani">
     <meta name="description" content="Exemplos de Site de Pizzaria">
     <meta name="keywords" content="pizza, entrega, pizzaria">
+
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/imagemInicial.css" />
+    <link rel="stylesheet" href="css/banner.css" />
     <link rel="stylesheet" href="css/formulario.css" />
+    <link rel="stylesheet" href="css/cardapio.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="shortcut icon" href="img/IconeParaONavegador.png" type="image/x-icon" />
+
     <title>Pizzaria Hermanos</title>
 
 </head>
@@ -23,14 +26,14 @@
 <body>
 
     <div>
-        <img class="imagemBanner" src="img/Logo3.jpg"/>
+        <img class="banner" src="img/banner.jpg"/>
         <h1 class="textoBanner">Pizzaria Hermanos</h1>
     </div>
 
     <div class="header">
         <ul>
             <li><a href="#TextoSobreJS" class="altura_js">Promoção</a></li>
-            <li><a href="#TextoSobreJS" class="altura_js">Cardápio</a></li>
+            <li><a href="#CardapioJS" class="altura_js">Cardápio</a></li>
             <li><a href="#ContatoJS" class="altura_js">Contato</a></li>
         </ul>
         <a class="logo"><img  src="img/Logo2.jpg"/> </a>
@@ -41,6 +44,32 @@
         <p>Acreditamos que cada pedaço de pizza representa em seu próprio
         ser uma experiência completa.</p>
     </div>
+
+    <div id="CardapioJS" class="cardapio">
+        <h2>Cardápio</h2>
+        <div>
+            <h2>Pizzas</h2>
+                <div>
+                    <h5>Americana</h5>
+                    <p>Mussarela, bacon, tomate, 
+                    azeitona preta, orégano e cebola</p>
+                    <div class="preco">R$ 23,00</div>
+                </div>
+                <div>
+                    <h5>Calabresa</h5>
+                    <p>Mussarela, bacon, ovos, tomate, 
+                    azeitona preta e cebola</p>
+                    <div class="preco">R$ 23,00</div>
+                </div>
+                <div>
+                    <h5>Brigadeiro</h5>
+                    <p>Mussarela, bacon, ovos,
+                    azeitona preta, orégano e cebola</p>
+                    <div class="preco">R$ 23,00</div>
+                </div>
+        </div>
+    </div>
+
 
     <div class="contato" id="ContatoJS">
         <form class="form">
@@ -69,7 +98,6 @@
 
     <script src="js/textoImagemInicial.js"></script>
     <script src="js/scripts.js"></script>
-
 
 </body>
 
