@@ -9,9 +9,11 @@ body{
 }
 
 .textoPizzaria h1{
+    text-align: center; 
     font-size: 30px;
 }
 
 .textoPizzaria p{
-font-size: 23px;
+    text-align: center; 
+    font-size: 23px;
 }

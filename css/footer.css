@@ -1,0 +1,31 @@
+footer {
+    background-color: rgb(44, 44, 44);
+    position: relative;
+    bottom: 0;
+    top: 6px;
+    height: 150px;
+    width: 100%;
+    border-top: 5px solid;
+    border-image-source: linear-gradient(-90deg, #d60606, #ffc400);
+    border-image-slice: 2;
+}
+
+.container__text {
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container__text span {
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: "Montserrat Bold", Helvetica, sans-serif;
+}
+
+.container__text span:not(:first-child) {
+    margin-top: 4px;
+}
