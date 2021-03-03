@@ -15,20 +15,15 @@
 
 @keyframes pisca {
     0%,
-    100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0
-    }
+    100% {opacity: 1;}
+    0%   {opacity: 0;}
 }
 
 .textoBanner::after {
-    content: "|";
-    margin-left: 5px;
+    content: url(/img/aa.png);
     color:#ffae00;
     opacity: 1;
-    animation: pisca .9s infinite;
+    animation: pisca .30s infinite;
 }
 
 

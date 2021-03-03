@@ -5,7 +5,11 @@ body{
 
 .textoPizzaria{
     width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 10%;
+    border-top: 1px solid #e65e03;
+    border-bottom: 1px solid #ff3c00;
 }
 
 .textoPizzaria h1{

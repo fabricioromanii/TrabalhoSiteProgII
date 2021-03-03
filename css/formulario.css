@@ -1,10 +1,11 @@
 .contato {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .form {
-    display: flex;
     flex-direction: column;
     width: 80vw;
     display: block;
@@ -19,12 +20,20 @@ input {
     font-size:14px
 }
 
+input:hover{
+    border: 2px solid #FF551C;
+    color: #ffffff;
+
+}
+
 .field-nome {
-    width: 80vw;
+    width: 39vw;
+    float:left;
 }
 
 .field-telefone {
-    width: 80vw;
+    width: 39vw;
+    float:right;
 }
 
 .field-email {
@@ -35,17 +44,19 @@ input {
     font-size:14px;
     color: #000000;
     width: 80vw;
-    height: 17vh;
+    height: 15vh;
     margin-bottom: 15px;
     background-color: #ffffff;
     border: 2px solid #373636;
     font-family: 'Montserrat';
     resize: none;
 }
-
+.field-mensagem:hover{
+    border: 2px solid #FF551C;
+}
 .field-enviar {
     width: 20vw;
-    height:35px;
+    height:38px;
     padding: 9px;
     background-color: #d64f0c;
     color: #ffffff;
@@ -59,6 +70,8 @@ input {
 }
 
 .field-enviar:hover {
+    border: 1px solid #e87840;
+    float: right;
     background-color: #e87840;
 }
 

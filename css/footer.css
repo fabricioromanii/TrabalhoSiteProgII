@@ -3,11 +3,19 @@ footer {
     position: relative;
     bottom: 0;
     top: 6px;
-    height: 150px;
+    height: 200px;
     width: 100%;
     border-top: 5px solid;
     border-image-source: linear-gradient(-90deg, #d60606, #ffc400);
     border-image-slice: 2;
+}
+
+.container__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 91%;
+    padding: 15px 15px 0px 45.8px;
 }
 
 .container__text {
@@ -28,4 +36,12 @@ footer {
 
 .container__text span:not(:first-child) {
     margin-top: 4px;
+}
+
+.container__location {
+    height: 160px;
+}
+
+.container__location .map--google {
+    height: 160px;
 }
