@@ -18,10 +18,18 @@
     width: 80vw;
 }
 
+.checkbox{
+    width: 15px;
+    height: 15px;
+    color:#3f3f3f
+}
+
 .listaSabores li{
-    background-color: #dfdede;
+    background-color: #c7c1c1;
     display: inline-block;
-    width:30vh;
+    width:17vh;
+    font-size: 14pt;
+    height:5vh;
     margin: 15px 5px 3px 5px;
     border-radius: 7px;
     cursor: pointer;
@@ -31,10 +39,10 @@
     margin-left:530px;
     height:30px;
     width:100px;
-    background-color: rgb(109, 22, 22);
+    background-color: #c7c1c1;
 }
 
 .botaoEnviar:hover{
-    background-color: rgb(158, 52, 52);
+    background-color: #a7a7a7;
     cursor: pointer;
 }
