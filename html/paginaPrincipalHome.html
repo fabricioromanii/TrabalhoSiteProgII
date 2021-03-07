@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/banner.css" />
     <link rel="stylesheet" href="/css/formulario.css" />
+    <link rel="stylesheet" href="/css/galeria.css" />
     <link rel="stylesheet" href="/css/cardapio.css" />
     <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/paginaCardapio.css" />
@@ -31,18 +32,31 @@
 
     <div class="header">
         <ul>
+            <li><a href="#PromocoesJS" class="altura_js" title="Promoções"><i class="fa fa-angellist"></i> A pizzaria</a></li>
             <li><a href="#PromocoesJS" class="altura_js" title="Promoções"><i class="fa fa-angellist"></i> Promoções</a></li>
             <li><a href="#PizzasJS" class="altura_js" title="Cardápio"><i class="fa fa-file"></i> Cardápio</a></li>
             <li><a href="#ContatoJS" class="altura_js" title="Contato"><i class="fa fa-phone"></i> Contato</a></li>
-            <li><a href="/html/paginaContaUsuario.html"><i class="fa fa-user" title="Conta"></i></a></li>
+            <li><a href="/html/paginaContaUsuario.html"><i class="fa fa-user" title="Conta"></i> Conta</a></li>
         </ul>
-        <a class="logo" href="/html/paginaPrincipalHome.html"><img title="Logo da pizzaria" src="img/Logo2.jpg"/> </a>
+        <a class="logo" href="/html/paginaPrincipalHome.html"><img title="Logo da pizzaria" src="/img/Logo2.jpg"/> </a>
     </div>
 
     <div class="textoPizzaria" id="TextoSobreJS">
         <h1>Pizzaria Hermanos</h1>
         <p>Acreditamos que cada pedaço de pizza representa em seu próprio
         ser uma experiência completa.</p>
+    </div>
+
+    <div class="fotosPizzaria" id="FotosJS">
+        <h1>Galeria de fotos</h1>
+        <section class="galeria">
+            <a href="/html/paginaGaleriaImagens.html"><img src="/img/imagemPizzaria1.jfif" onclick=""/></a>
+            <a href="/html/paginaGaleriaImagens.html"><img src="/img/imagemPizzaria2.jfif" onclick=""/></a>
+            <a href="/html/paginaGaleriaImagens.html"><img src="/img/imagemPizzaria3.jfif" onclick=""/></a>
+            <a href="/html/paginaGaleriaImagens.html"><img src="/img/imagemPizzaria4.jpg" onclick=""/></a>
+            <a href="/html/paginaGaleriaImagens.html"><img src="/img/imagemPizzaria5.jfif" onclick=""/></a>
+            <a href="/html/paginaGaleriaImagens.html"><img src="/img/imagemPizzaria6.jpg" onclick=""/></a>
+        </section>
     </div>
 
     <div id="PizzasJS" class="cardapio">
@@ -52,7 +66,7 @@
                 <div class="itemCardapioPizza">
                     <a href="/html/paginaCardapioPizzaGrande.html">
                         <h5>Grande</h5>
-                        <img class="imagemPizza" src="img/logoPizzaGrande.png" height="120" width="120">
+                        <img class="imagemPizza" src="/img/logoPizzaGrande.png" height="120" width="120">
                         <p>45 cm - 16 fatias - 4 sabores</p>
                         <div class="precoPizza">R$ 40,00</div>
                     </a>
@@ -60,9 +74,9 @@
                 <div class="itemCardapioPizza">
                     <a href="/html/paginaCardapioPizzaMedia.html">
                         <h5>Média</h5>
-                        <img class="imagemPizza" src="img/logoPizzaMedia.png" height="120" width="120"> 
+                        <img class="imagemPizza" src="/img/logoPizzaMedia.png" height="120" width="120"> 
                         <p>30 cm - 12 fatias - 3 sabores</p>
-                        <div class="precoPizza">R$ 23,00</div>
+                        <div class="precoPizza">R$ 30,00</div>
                     </a>
                 </div>
                 <div class="itemCardapioPizza">
@@ -108,7 +122,7 @@
    
     <div class="contato" id="ContatoJS">
         <form class="form">
-            <h2>Faça seu pedido!</h2>
+            <h1>Faça seu pedido!</h1>
             <input class="field-nome" placeholder="Nome" type="text" required>
             <input class="field-telefone" placeholder="Telefone" type="number" required>
             <input class="field-email" placeholder="E-mail" type="email" required>

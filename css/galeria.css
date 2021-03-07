@@ -1,0 +1,16 @@
+.galeria{
+    width:90vw;
+    margin-left: 5vw;
+    
+}
+
+.galeria img{
+    border: 2.5px solid #ffffff;
+    width:28.5vw;
+    height:19vw;
+}
+
+.galeria img:hover{
+    border: 2.5px solid #e63600;
+    cursor: pointer;
+}

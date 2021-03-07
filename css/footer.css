@@ -5,9 +5,9 @@ footer {
     top: 6px;
     height: 200px;
     width: 100%;
-    border-top: 5px solid;
+    border-top: 3px solid;
     border-image-source: linear-gradient(-90deg, #d60606, #ffc400);
-    border-image-slice: 2;
+    border-image-slice: 1;
 }
 
 .container__footer {
