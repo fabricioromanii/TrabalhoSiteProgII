@@ -1,7 +1,7 @@
 .contato {
     display: flex;
     justify-content: center;
-    margin-top: 1000px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 
@@ -17,6 +17,8 @@ input {
     background-color: #fff;
     border: 1.5px solid #373636;
     border-radius:5px;
+    padding: 5px 0px 5px 10px;
+    font-family: "Poppins", sans-serif;
     color: #000;
     font-size:14px;
     cursor: pointer;
@@ -33,9 +35,9 @@ input:hover{
 }
 
 .field-telefone {
-    width: 39vw;
+    width: 38vw;
     float:right;
-    margin-right:-5px;
+    margin-right:-12px;
 }
 
 .field-email {
@@ -52,8 +54,9 @@ input:hover{
     cursor: pointer;
     background-color: #fff;
     border: 1.5px solid #373636;
-    font-family: 'Montserrat';
+    font-family: "Poppins", sans-serif;
     resize: none;
+    padding: 5px 0px 0px 10px;
 }
 
 .field-mensagem:hover{

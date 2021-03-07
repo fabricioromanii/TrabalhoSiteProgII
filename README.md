@@ -6,7 +6,7 @@ Exemplo de site feito para uma pizzaria;
 
 Você abriu uma Pizzaria e precisa desenvolver um site para divulgar a empresa e receber pedidos. O site deve conter as seguintes páginas:
 
-1 - Início (index.html): página inicial com alguma imagem e slogan da empresa;
+1 - Início (paginaPrincipalHome.html): página inicial com alguma imagem e slogan da empresa;
 
 2 - Quem somos (quemsomos.html): texto com informações da empresa, missão, valores (lista ordenada);
 
