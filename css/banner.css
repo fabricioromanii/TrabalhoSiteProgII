@@ -21,7 +21,7 @@
 }
 
 .textoBanner::after {
-    content: url(/img/aa.png);
+    content: url(img/aa.png);
     color:#ffae00;
     opacity: 1;
     animation: pisca .30s infinite;
