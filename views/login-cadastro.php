@@ -75,7 +75,7 @@
                 </div>
             </div>
             <hr>
-            <a href="login.html">Já possuo cadastro</a>
+            <a href="login.php">Já possuo cadastro</a>
         </form>
     </div>
     <script src="js/index.js"></script>

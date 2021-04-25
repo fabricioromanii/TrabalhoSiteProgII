@@ -34,7 +34,7 @@
             <div id="buttons" class="buttons">
                 <input type="submit" value="Entrar"> <br>
             </div>
-            <a class="form-a" href="login-cadastro.html">Faça seu Cadastro</a>
+            <a class="form-a" href="login-cadastro.php">Faça seu Cadastro</a>
         </form>
 
     </div>

@@ -30,11 +30,11 @@
             <li><a href="#FotosJS" class="altura_js" title="Promoções"><i class="fa fa-home"></i> A pizzaria</a></li>
             <li><a href="#PromocoesJS" class="altura_js" title="Promoções"><i class="fa fa-angellist"></i> Promoções</a></li>
             <li><a href="#PizzasJS" class="altura_js" title="Cardápio"><i class="fa fa-file"></i> Cardápio</a></li>
-            <li><a href="../views/contato.html" title="Contato"><i class="fa fa-phone"></i> Contato</a></li>
-            <li><a href="../views/login.html" title="Login"><i class="fa fa-phone"></i> Login</a></li>
+            <li><a href="../views/contato.php" title="Contato"><i class="fa fa-phone"></i> Contato</a></li>
+            <li><a href="../views/login.php" title="Login"><i class="fa fa-phone"></i> Login</a></li>
 
         </ul>
-        <a class="logo" href="index.html"><img title="Logo da pizzaria" src="img/Logo2.jpg" /> </a>
+        <a class="logo" href="../index.php"><img title="Logo da pizzaria" src="img/Logo2.jpg" /> </a>
     </div>
     
     <script src="js/textoBanner.js"></script>
