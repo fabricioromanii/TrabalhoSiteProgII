@@ -28,7 +28,7 @@
         <div>
             <h2>Pizzas</h2>
             <div class="itemCardapioPizza">
-                <a href="cardapioPizzaGrande.php">
+                <a href="cardapio.php">
                     <h5>Grande</h5>
                     <img class="imagemPizza" src="img/logoPizzaGrande.png" alt="imagem-promocao" height="120" width="120">
                     <p>45 cm - 16 fatias - 4 sabores</p>
@@ -36,7 +36,7 @@
                 </a>
             </div>
             <div class="itemCardapioPizza">
-                <a href="cardapioPizzaMedia.php">
+                <a href="cardapio.php">
                     <h5>Média</h5>
                     <img class="imagemPizza" src="img/logoPizzaMedia.png" alt="imagem-promocao" height="120" width="120">
                     <p>30 cm - 12 fatias - 3 sabores</p>
@@ -44,7 +44,7 @@
                 </a>
             </div>
             <div class="itemCardapioPizza">
-                <a href="cardapioPizzaPequena.php">
+                <a href="cardapio.php">
                     <h5>Pequena</h5>
                     <img class="imagemPizza" src="img/logoPizzaPequena.png" alt="imagem-promocao" height="120" width="120">
                     <p>15 cm - 8 fatias - 2 sabores</p>
