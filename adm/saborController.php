@@ -1,13 +1,15 @@
 <?php
+
 include_once "../classes/SaborDAO.php";
+
 if(!isset($_GET['acao'])){
     // pg inicial de adm. de sabores; carrega lista de registros
     $titulo = "Lista de Sabores";
     $obj = new SaborDAO();
     $lista = $obj->listar();
-    include "views/layout/topo.php";
+    include "views/includes/header.php";
     include "views/listaSabor.php";
-    include "views/layout/rodape.php";
+    include "views/includes/footer.php";
 }
 else {    
 	switch($_GET['acao']){
@@ -16,9 +18,9 @@ else {
             $titulo = "Cadastro de Sabor";
             // logica para cadastro
             if(!isset($_POST['cadastrar'])){ // dados ainda nao submetidos
-                include "views/layout/topo.php";
+                include "views/includes/header.php";
                 include "views/cadastraSabor.php";
-                include "views/layout/rodape.php";                
+                include "views/includes/footer.php";                
             }
             else{ // dados submetidos; trata a inserção
                 $novo = new Sabor();
@@ -27,13 +29,13 @@ else {
                 $novo->setNomeImagem($_FILES['field_imagem']['name']);
                 $erros = $novo->validate();
                 if(count($erros) != 0){ // algum campo em branco
-                    include "views/layout/topo.php";
+                    include "views/includes/header.php";
                     include "views/cadastraSabor.php";
-                    include "views/layout/rodape.php";                       
+                    include "views/includes/footer.php";                       
                 }
                 else{ // campos todos preenchidos
                     //upload
-                    $destino = "../assets/images/".$_FILES['field_imagem']['name']; 
+                    $destino = "../img/images/".$_FILES['field_imagem']['name']; 
                     if(move_uploaded_file($_FILES['field_imagem']['tmp_name'], $destino)){
                         //inserção
                         $bd = new SaborDAO();
@@ -43,9 +45,9 @@ else {
                     else{
                         // erro no upload
                         $erros[] = "Erro no upload";
-                        include "views/layout/topo.php";
+                        include "views/includes/header.php";
                         include "views/cadastraSabor.php";
-                        include "views/layout/rodape.php";                         
+                        include "views/includes/footer.php";                         
                     }
                 }
             }

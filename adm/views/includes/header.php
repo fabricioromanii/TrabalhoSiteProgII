@@ -34,7 +34,7 @@
             <li><a href="../views/login.php" title="Login"><i class="fa fa-phone"></i> Login</a></li>
 
         </ul>
-        <a class="logo" href="../index.php"><img title="Logo da pizzaria" src="img/Logo2.jpg" /> </a>
+        <a class="logo" href="../index.php"><img title="Logo da pizzaria" src="../img/Logo2.jpg" /> </a>
     </div>
     
     <script src="js/textoBanner.js"></script>
