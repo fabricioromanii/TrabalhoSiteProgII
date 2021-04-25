@@ -31,8 +31,6 @@
             <li><a href="#PromocoesJS" title="Promoções"><i class="fa fa-angellist"></i> Promoções</a></li>
             <li><a href="#PizzasJS" title="Cardápio"><i class="fa fa-file"></i> Cardápio</a></li>
             <li><a href="../views/contato.php" title="Contato"><i class="fa fa-phone"></i> Contato</a></li>
-            <li><a href="../views/login.php" title="Login"><i class="fa fa-phone"></i> Login</a></li>
-
         </ul>
         <a class="logo" href="../index.php"><img title="Logo da pizzaria" src="../img/Logo2.jpg" /> </a>
     </div>

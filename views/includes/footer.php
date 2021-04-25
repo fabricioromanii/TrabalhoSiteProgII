@@ -7,16 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Fabrício Romani">
-    <meta name="description" content="Exemplos de Site de Pizzaria">
-    <meta name="keywords" content="pizza, entrega, pizzaria">
-    <link rel="stylesheet" href="../css/index.css" />
-    <link rel="stylesheet" href="../css/header.css" />
-    <link rel="stylesheet" href="../css/banner.css" />
-    <link rel="stylesheet" href="../css/formulario.css" />
-    <link rel="stylesheet" href="../css/galeria.css" />
-    <link rel="stylesheet" href="../css/cardapio.css" />
     <link rel="stylesheet" href="../css/footer.css" />
-    <link rel="stylesheet" href="../css/paginaCardapio.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
