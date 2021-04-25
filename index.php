@@ -54,35 +54,6 @@
         </div>
     </div>
 
-    <div id="PromocoesJS" class="cardapio">
-        <h2>Promoções</h2>
-        <div class="itemCardapioBebida">
-            <a href="promocoes.php">
-                <h5>Pizza Grande + Coca-Cola 2 litros</h5>
-                <img class="imagemBebida" src="img/imagemPromocaoCoca.jfif" alt="imagem-promocao" height="90" width="90">
-                <p>Pizza G - 4 sabores - Coca-Cola 2 litros</p>
-                <div class="precoBebida">R$ 30,00</div>
-            </a>
-        </div>
-        <div class="itemCardapioBebida">
-            <a href="promocoes.php">
-                <h5>Guaraná + 2 pizzas médias</h5>
-                <img class="imagemBebida" src="img/imagemPromocaoGuarana.png" alt="imagem-promocao" height="90" width="90">
-                <p>2 pizzas médias - 2 sabores cada - Guaraná 2 litros</p>
-                <div class="precoBebida">R$ 40,00</div>
-            </a>
-        </div>
-        <div class="itemCardapioBebida">
-            <a href="promocoes.php">
-                <h5>Sprite + 1 Pizza Grande</h5>
-                <img class="imagemBebida" src="img/imagemPromocaoSprite.jfif" alt="imagem-promocao" height="90" width="90">
-                <p>Refrigerante Sprite Limão + Pizza G - 4 sabores</p>
-                <div class="precoBebida">R$ 30,00</div>
-            </a>
-        </div>
-
-    </div>
-
     <div class="contato" id="ContatoJS">
         <form class="form">
             <h1>Faça seu pedido!</h1>
@@ -93,5 +64,7 @@
             <input class="field-enviar" type="submit" value="Enviar">
         </form>
     </div>
+
+    <script src="../js/header.js"></script>
 
     <?php require_once("views/includes/footer.php");?>
