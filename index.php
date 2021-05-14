@@ -14,12 +14,12 @@
         <h1>Galeria de fotos</h1>
 
         <section class="galeria">
-            <a href="galeriaImagens.php"><img src="img/imagemPizzaria1.jfif" alt="imagem-promocao" onclick="" /></a>
-            <a href="galeriaImagens.php"><img src="img/imagemPizzaria2.jfif" alt="imagem-promocao" onclick="" /></a>
-            <a href="galeriaImagens.php"><img src="img/imagemPizzaria3.jfif" alt="imagem-promocao" onclick="" /></a>
-            <a href="galeriaImagens.php"><img src="img/imagemPizzaria4.jpg" alt="imagem-promocao" onclick="" /></a>
-            <a href="galeriaImagens.php"><img src="img/imagemPizzaria5.jfif" alt="imagem-promocao" onclick="" /></a>
-            <a href="galeriaImagens.php"><img src="img/imagemPizzaria6.jpg" alt="imagem-promocao" onclick="" /></a>
+            <a href="views/quemSomos.php"><img src="img/imagemPizzaria1.jfif" alt="imagem-promocao" onclick="" /></a>
+            <a href="views/quemSomos.php"><img src="img/imagemPizzaria2.jfif" alt="imagem-promocao" onclick="" /></a>
+            <a href="views/quemSomos.php"><img src="img/imagemPizzaria3.jfif" alt="imagem-promocao" onclick="" /></a>
+            <a href="views/quemSomos.php"><img src="img/imagemPizzaria4.jpg" alt="imagem-promocao" onclick="" /></a>
+            <a href="views/quemSomos.php"><img src="img/imagemPizzaria5.jfif" alt="imagem-promocao" onclick="" /></a>
+            <a href="views/quemSomos.php"><img src="img/imagemPizzaria6.jpg" alt="imagem-promocao" onclick="" /></a>
         </section>
     </div>
 
@@ -28,7 +28,7 @@
         <div>
             <h2>Pizzas</h2>
             <div class="itemCardapioPizza">
-                <a href="cardapio.php">
+                <a href="views/cardapio.php">
                     <h5>Grande</h5>
                     <img class="imagemPizza" src="img/logoPizzaGrande.png" alt="imagem-promocao" height="120" width="120">
                     <p>45 cm - 16 fatias - 4 sabores</p>
@@ -36,7 +36,7 @@
                 </a>
             </div>
             <div class="itemCardapioPizza">
-                <a href="cardapio.php">
+                <a href="views/cardapio.php">
                     <h5>Média</h5>
                     <img class="imagemPizza" src="img/logoPizzaMedia.png" alt="imagem-promocao" height="120" width="120">
                     <p>30 cm - 12 fatias - 3 sabores</p>
@@ -44,7 +44,7 @@
                 </a>
             </div>
             <div class="itemCardapioPizza">
-                <a href="cardapio.php">
+                <a href="views/cardapio.php">
                     <h5>Pequena</h5>
                     <img class="imagemPizza" src="img/logoPizzaPequena.png" alt="imagem-promocao" height="120" width="120">
                     <p>15 cm - 8 fatias - 2 sabores</p>
@@ -65,6 +65,6 @@
         </form>
     </div>
 
-    <script src="../js/header.js"></script>
+    <script src="js/header.js"></script>
 
     <?php require_once("views/includes/footer.php");?>

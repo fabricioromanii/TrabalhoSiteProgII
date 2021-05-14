@@ -7,22 +7,22 @@ function check_register() {
     const bairro = document.getElementById("bairro_register");
     const address = document.getElementById("address_register");
 
-    if(name.value == "" || email.value == "" || birthday.value == "" || pass.value == "" || confirm_pass.value == "" || bairro.value == "" ){
-        alert("O campo não pode ser vazio");
-        return false;
+    if(name.value == "" || email.value == "" || birthday.value == "" || pass.value == "" || confirm_pass.value == "" || bairro.value == "" || address.value == "" ){
+        alert("Por favor, complete todos os campos");
+        return;
     }
     if(pass.value != confirm_pass.value){
         alert("As senhas inseridas não conferem");
-        return false;
+        return;
     }
 }
 
 function check_login() {
-    const email = document.getElementById("email_login");
-    const pass = document.getElementById("password_login");
+    const email = document.getElementById("login");
+    const pass = document.getElementById("password");
 
-    if(email.value == "" || pass.value == ""){
-        alert("Os campos E-mail/Senha não podem ser vazios");
+    if(email.value == "admin" || pass.value == "123"){
+        alert("login = admin // senha = 123");
         return false;
     }
 

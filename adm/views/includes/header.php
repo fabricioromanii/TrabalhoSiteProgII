@@ -35,7 +35,6 @@
         <a class="logo" href="../index.php"><img title="Logo da pizzaria" src="../img/Logo2.jpg" /> </a>
     </div>
     
-    <script src="js/textoBanner.js"></script>
     <script src="js/header.js"></script>
     <script src="js/index.js"></script>
     

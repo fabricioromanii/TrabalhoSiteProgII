@@ -19,7 +19,7 @@
     <br>
 
         <p>Você selecionou <strong id="numSabores">0</strong> de <strong id="limiteSabores">0</strong> sabores</p>
-        <div id="lista_sabores">
+        <div class="lista_sabores" id="lista_sabores">
 
             <?php
             require_once "../classes/SaborDAO.php";
@@ -48,7 +48,7 @@
             ?>
         </div> 
 
-        <fieldset>
+        <fieldset class="borda-pizza">
             <legend>Selecione a opção de borda:</legend>
             <label><input type="radio" name="borda" value="" checked>Sem borda</label><br>
             <label><input type="radio" name="borda" value="">Catupiry</label><br>
@@ -56,7 +56,7 @@
             <label><input type="radio" name="borda" value="">Chocolate</label><br>
         </fieldset>
 
-        <input type="submit" value="Adicionar ao carrinho" name="adicionar">
+        <button type="submit" class="botaoEnviar" name="adicionar"> Adicionar ao carrinho</button>
 
         <?php
         } 
