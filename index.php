@@ -57,9 +57,9 @@
     <div class="contato" id="ContatoJS">
         <form class="form">
             <h1>Faça seu pedido!</h1>
-            <input class="field-nome" placeholder="Nome" type="text" required>
-            <input class="field-telefone" placeholder="Telefone" type="number" required>
-            <input class="field-email" placeholder="E-mail" type="email" required>
+            <input placeholder="Nome" type="text" required>
+            <input placeholder="Telefone" type="number" required>
+            <input placeholder="E-mail" type="email" required>
             <textarea class="field-mensagem" placeholder="Digite sua mensagem aqui" maxlength="600" required></textarea>
             <input class="field-enviar" type="submit" value="Enviar">
         </form>

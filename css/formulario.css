@@ -11,7 +11,14 @@
     display: block;
 }
 
-input {
+input[type=date],
+input[type=text],
+input[type=email],
+select,
+input[type=number],
+input[type=password],
+textarea{
+    width: 100%;
     height: 30px;
     margin-bottom: 15px;
     background-color: #fff;
@@ -24,38 +31,19 @@ input {
     cursor: pointer;
 }
 
+input[type=date]:focus,
+input[type=text]:focus,
+input[type=email]:focus,
+select:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+textarea{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
 input:hover {
     border: 1.5px solid #FF551C;
-}
-
-.field-nome {
-    width: 39vw;
-    float: left;
-}
-
-.field-telefone {
-    width: 38vw;
-    float: right;
-    margin-right: -12px;
-}
-
-.field-email {
-    width: 80vw;
-}
-
-.field-mensagem {
-    font-size: 14px;
-    color: #000;
-    width: 80vw;
-    height: 15vh;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #fff;
-    border: 1.5px solid #373636;
-    font-family: "Poppins", sans-serif;
-    resize: none;
-    padding: 5px 0px 0px 10px;
 }
 
 .field-mensagem:hover {
@@ -63,11 +51,11 @@ input:hover {
 }
 
 .field-enviar {
-    width: 20vw;
+    width: 15vw;
     height: 40px;
     padding: 7px;
     background-color: #FF551C;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     cursor: pointer;
     border-radius: 10px;
     float: right;
@@ -80,6 +68,6 @@ input:hover {
 }
 
 .field-enviar:hover {
-    border: 1.5px solid #fc6c3b;
-    background-color: #fc6c3b;
+    border: 1.5px solid #d14014;
+    background-color: #d14014;
 }
