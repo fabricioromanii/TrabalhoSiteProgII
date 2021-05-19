@@ -3,12 +3,19 @@
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 50px;
+    
 }
-
+h2{
+    width: 100%;
+    text-align: center;
+}
 .form {
-    flex-direction: column;
     width: 80vw;
     display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 input[type=date],
@@ -16,8 +23,7 @@ input[type=text],
 input[type=email],
 select,
 input[type=number],
-input[type=password],
-textarea{
+input[type=password]{
     width: 100%;
     height: 30px;
     margin-bottom: 15px;
@@ -36,8 +42,7 @@ input[type=text]:focus,
 input[type=email]:focus,
 select:focus,
 input[type=number]:focus,
-input[type=password]:focus,
-textarea{
+input[type=password]:focus{
     box-shadow: 0 0 0 0;
     outline: 0;
 }
@@ -46,28 +51,31 @@ input:hover {
     border: 1.5px solid #FF551C;
 }
 
-.field-mensagem:hover {
-    border: 1.5px solid #FF551C;
-}
-
 .field-enviar {
-    width: 15vw;
+    width: 15%;
+    margin-left: 85%;
     height: 40px;
     padding: 7px;
     background-color: #FF551C;
     color: #ffffff;
     cursor: pointer;
     border-radius: 10px;
-    float: right;
     border: 0;
-    font-weight: bold;
-    font-family: "Poppins", sans-serif;
     font-size: 18px;
-    border: 1.5px solid #FF551C;
+    font-weight: bold;
     box-shadow: 3px 3px 3px #353434;
 }
 
 .field-enviar:hover {
-    border: 1.5px solid #d14014;
     background-color: #d14014;
+}
+
+.div-metade{
+    width: 48%;
+    margin: 0 1% 0 1%;
+ }
+
+.div-inteira{
+    width: 98%;
+    margin: 0 1% 0 1%;
 }
